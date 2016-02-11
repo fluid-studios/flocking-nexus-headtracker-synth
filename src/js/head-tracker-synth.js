@@ -37,6 +37,16 @@
                         bounds: "{region}.model"
                     }
                 }
+            },
+
+            zoneController: {
+                type: "fluid.trackerSynth.zoneController",
+                container: ".controller",
+                options: {
+                    model: {
+                        pointerPosition: "{pointer}.model.position.absolute"
+                    }
+                }
             }
         }
     });
