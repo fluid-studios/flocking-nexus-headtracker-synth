@@ -29,8 +29,24 @@ body {
     margin: 0.5em;
 }
 
-.zone.highlight {
-    background-color: blue;
+.zone:nth-child(1).highlight {
+    background-color: #2266ee;
+}
+
+.zone:nth-child(2).highlight {
+    background-color: #22eeee;
+}
+
+.zone:nth-child(3).highlight {
+    background-color: #22ee66;
+}
+
+.zone:nth-child(4).highlight {
+    background-color: #ee6622;
+}
+
+.zone:nth-child(5).highlight {
+    background-color: #ee2266;
 }
 
 #pointer {

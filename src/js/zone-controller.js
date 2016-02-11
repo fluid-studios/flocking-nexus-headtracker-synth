@@ -67,7 +67,7 @@
         return fluid.transform(zones, fluid.trackerSynth.zoneController.rectForZone);
     };
 
-    fluid.trackerSynth.zoneController.isWithinZone = function (zoneRect, pointerPosition) {
+    fluid.trackerSynth.zoneController.isInZone = function (zoneRect, pointerPosition) {
         return pointerPosition.left >= zoneRect.left &&
             pointerPosition.left <= zoneRect.right &&
             pointerPosition.top >= zoneRect.top &&
@@ -77,7 +77,7 @@
     fluid.trackerSynth.zoneController.updateZonePosition = function (that) {
         for (var i = 0; i < that.model.zoneRects.length; i++) {
             var zoneRect = that.model.zoneRects[i];
-            if (fluid.trackerSynth.zoneController.isWithinZone(zoneRect, that.model.pointerPosition)) {
+            if (fluid.trackerSynth.zoneController.isInZone(zoneRect, that.model.pointerPosition)) {
                 that.applier.change("activeZoneIdx", i);
                 return;
             }

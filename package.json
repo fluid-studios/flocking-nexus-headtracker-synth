@@ -8,9 +8,9 @@
     ],
     "repository": {
         "type": "git",
-        "url": "git://github.com/colinbdclark/headtracker-synth.git"
+        "url": "git://github.com/colinbdclark/flocking-nexus-headtracker-synth.git"
     },
-    "bugs": "http://github.com/colinbdclark/headtracker-synth/issues",
+    "bugs": "http://github.com/colinbdclark/flocking-nexus-headtracker-synth/issues",
     "license": "BSD-3-Clause",
     "keywords": [
         "Flocking",
