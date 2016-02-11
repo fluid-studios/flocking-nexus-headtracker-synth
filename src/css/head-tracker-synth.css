@@ -13,7 +13,7 @@ body {
 }
 
 .controller {
-    margin: 2em;
+    margin: 1em;
 }
 
 .zone-row {
@@ -26,7 +26,7 @@ body {
     float: left;
     border-radius: 1.2em;
     background-color: #333;
-    margin: 0.5em;
+    margin: 2em;
 }
 
 .zone:nth-child(1).highlight {

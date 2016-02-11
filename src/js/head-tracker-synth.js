@@ -45,6 +45,16 @@
                         pointerPosition: "{pointer}.model.position.absolute"
                     }
                 }
+            },
+
+            bonang: {
+                type: "fluid.trackerSynth.bonang",
+                options: {
+                    numNotes: "{zoneController}.dom.zones.length",
+                    model: {
+                        activeNote: "{zoneController}.model.activeZoneIdx"
+                    }
+                }
             }
         }
     });
