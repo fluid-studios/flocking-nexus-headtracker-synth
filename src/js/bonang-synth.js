@@ -22,7 +22,10 @@
 
             inputs: {
                 player: {
-                    trigger: 0.0,
+                    trigger: {
+                        source: 0.0
+                    },
+
                     speed: 1.0
                 }
             },
@@ -43,6 +46,10 @@
             options: {
                 bufferIDs: ["bonang"],
                 interpolation: "cubic"
+            },
+            trigger: {
+                ugen: "flock.ugen.valueChangeTrigger",
+                source: 0
             }
         },
 
@@ -78,7 +85,10 @@
     fluid.trackerSynth.bonang.onNoteChange = function (activeNote, that) {
         // TODO: With a bit of thought, this can be entirely modelized, which is great!
         var changeSpec = {
-            trigger: activeNote + 1, // An "open" trigger is > 0.0.
+            trigger: {
+                source: activeNote + 1 // An "open" trigger is > 0.0.
+            },
+
             speed: activeNote >= 0 ? that.model.speeds[activeNote] : 0.0
         };
 
