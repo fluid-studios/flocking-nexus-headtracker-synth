@@ -23,5 +23,8 @@
     "maxerr": 1000,
     "browser": true,
     "jquery": true,
-    "worker": true
+    "worker": true,
+    "globals": {
+        "fluid": false
+    }
 }
