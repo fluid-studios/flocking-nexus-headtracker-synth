@@ -25,6 +25,7 @@
     "jquery": true,
     "worker": true,
     "globals": {
-        "fluid": false
+        "fluid": false,
+        "flock": false
     }
 }

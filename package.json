@@ -19,6 +19,6 @@
     ],
     "readmeFilename": "README.md",
     "dependencies": {
-        "flocking": "colinbdclark/Flocking#790e10eeafde3fcdacba64ec857818e5ebbcf8b1"
+        "flocking": "colinbdclark/Flocking#381ff20d6ec619d32e0d23f1fc16a560c8b5582b"
     }
 }

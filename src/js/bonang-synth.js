@@ -69,6 +69,9 @@
             },
             trigger: {
                 ugen: "flock.ugen.valueChangeTrigger",
+                options: {
+                    triggerOnSetSameValue: false
+                },
                 source: 0
             },
             mul: {
