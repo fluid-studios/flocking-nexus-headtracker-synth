@@ -43,6 +43,9 @@
                     },
 
                     speed: 1.0
+                },
+                tremolo: {
+                    freq: 1
                 }
             },
 
@@ -67,6 +70,13 @@
             trigger: {
                 ugen: "flock.ugen.valueChangeTrigger",
                 source: 0
+            },
+            mul: {
+                id: "tremolo",
+                ugen: "flock.ugen.sinOsc",
+                freq: 1,
+                add: 0.5,
+                mul: 0.5
             }
         },
 
