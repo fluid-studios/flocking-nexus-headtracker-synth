@@ -1,6 +1,6 @@
 {
     "name": "headtracker-synth",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "A synth built with Flocking, the GPII Nexus, and the Asterics head tracker",
     "contributors": [
         "Simon Bates",
@@ -8,9 +8,9 @@
     ],
     "repository": {
         "type": "git",
-        "url": "git://github.com/colinbdclark/flocking-nexus-headtracker-synth.git"
+        "url": "git://github.com/fluid-studios/flocking-nexus-headtracker-synth.git"
     },
-    "bugs": "http://github.com/colinbdclark/flocking-nexus-headtracker-synth/issues",
+    "bugs": "http://github.com/fluid-studios/flocking-nexus-headtracker-synth/issues",
     "license": "BSD-3-Clause",
     "keywords": [
         "Flocking",
